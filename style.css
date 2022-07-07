@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 .flexible-container {
@@ -46,11 +47,53 @@ p {
 
 }
 
-.second {
-    font-weight: 700;
+.donate-plan {
+    background: burlywood;
+    width: 100%;
+    padding: 100px 0px;
 }
 
-.new-line {
+.title h2 {
+    color: 0;
+    font-size: 55px;
+    width: 1130px;
+    margin: 100px auto;
     text-align: center;
-    te
+}
+
+.first {
+    color: 0;
+    font-size: 30px;
+    width: 1130px;
+    margin: 100px auto;
+    text-align: center;
+
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    margin: 80px;
+    padding: 70px;
+}
+
+.card {
+    height: 365px;
+    width: 335px;
+    padding: 20px;
+    background: #0bea90;
+    border-radius: 20px;
+    margin: 12px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card-img {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
 }
