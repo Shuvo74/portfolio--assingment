@@ -30,3 +30,22 @@ p {
     margin: 0;
     padding: 0;
 }
+
+.show-btn {
+    text-decoration: none;
+    background-image: linear-gradient(hwb(32 0% 0%), #f82904);
+    padding: 11px 20px;
+    color: white;
+    border-radius: 7px;
+    font-weight: 700;
+
+}
+
+.second {
+    font-weight: 700;
+}
+
+.new-line {
+    text-align: center;
+    text-shadow: 0;
+}
